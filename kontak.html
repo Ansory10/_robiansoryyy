@@ -1,0 +1,114 @@
+CSS
+merubah warna baground teks font
+flexbox
+tag link
+menampilkan gambar
+membuat kotak
+membuat garis dari layar kanan ke Kirimmembuat teks ke tengah layar
+2
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contoh Warna Background Teks</title>
+</head>
+
+<body>
+
+    <!-- Menggunakan tag span dengan style background-color -->
+    <p>Ini adalah teks biasa, dan <span style="background-color: yellow;">ini teks dengan background kuning</span>.</p>
+
+    <!-- Menggunakan kode warna HEX -->
+    <p><span style="background-color: #ff9999; color: white;">Teks dengan background pink dan font putih</span>.</p>
+
+    <!-- Menggunakan tag bawaan HTML untuk highlight -->
+    <p>Ini adalah teks menggunakan <mark>tag mark bawaan HTML</mark> yang otomatis berlatar kuning.</p>
+
+</body>
+
+</html> 
+css nya
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contoh Warna Background Teks</title>
+    <style>
+        /* Gaya dasar halaman */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* 1. Class untuk background kuning */
+        .bg-kuning {
+            background-color: yellow;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        /* 2. Class untuk background pink dan tulisan putih */
+        .bg-pink-putih {
+            background-color: #ff9999;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        /* 3. Mengubah gaya bawaan tag <mark> */
+        mark {
+            background-color: #5cdb95; /* Mengubah warna mark bawaan menjadi hijau cerah */
+            color: #05386b;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menggunakan class untuk menggantikan style inline -->
+    <p>Ini adalah teks biasa, dan <span class="bg-kuning">ini teks dengan background kuning</span>.</p>
+
+    <!-- Menggunakan class kedua -->
+    <p><span class="bg-pink-putih">Teks dengan background pink dan font putih</span>.</p>
+
+    <!-- Menggunakan tag mark yang sudah dihias lewat CSS -->
+    <p>Ini adalah teks menggunakan <mark>tag mark bawaan HTML</mark> yang warna background-nya sudah diubah lewat CSS.</p>
+
+</body>
+
+</html>
+
+
+4 <a href="url_tujuan">Teks yang Bisa Diklik</a>
+CSS nya
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a {
+            color: red;             /* Mengubah warna tulisan jadi merah */
+            text-decoration: none;  /* Menghilangkan garis bawah */
+            font-weight: bold;      /* Membuat teks tebal */
+        }
+
+        a:hover {
+            color: blue;            /* Berubah warna biru saat disentuh kursor */
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://google.com">Teks yang Bisa Diklik</a>
+
+</body>
+</html>
+
+
+
+
+

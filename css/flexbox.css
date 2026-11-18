@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Robi</title>
+  <link rel="stylesheet" href="css/fortopolio.css">
+</head>
+
+<body>
+
+  <nav>
+    <h2>⚽ ROBI ANSORI</h2>
+
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
+      <li><a href="#hobi">Hobi</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Sosmed</a></li>
+    </ul>
+  </nav>
+
+
+  <section id="home" class="home">
+
+    <img src="assests/image/pp.jpg" alt="Foto Robi" class="foto-profil">
+
+    <p>Halo Semua, Saya</p>
+
+    <h1>ROBI ANSORI</h1>
+
+    <h3>Siswa SMKN 1 RONGGA </h3>
+
+    <p>
+      Saya siswa kelas 11 RPL 3 yang sedang belajar
+      coding dan membuat website.
+    </p>
+
+  </section>
+
+
+  <section id="about">
+
+    <h2>Tentang Saya</h2>
+
+    <p>
+      Nama saya Robi Ansori. Saya sekolah di SMKN 1 RONGGA
+      kelas 11 RPL 3. Saya mengambil jurusan RPL karena
+      tertarik dengan komputer dan coding.
+    </p>
+
+    <h3>Keahlian</h3>
+
+    <p>RPL, Coding, CSS, JavaScript, Game dan Olahraga.</p>
+
+  </section>
+
+
+  <section id="pendidikan" class="biru">
+
+    <h2>Pendidikan</h2>
+
+    <div class="sekolah">
+
+      <div>
+        <img src="assests/image/logo 7.jpg" alt="Logo SD">
+        <h3>SD NEGERI CISITU</h3>
+        <p>Menampuh pendidikan sekolah pertama selama 6 tahun</p>
+      </div>
+
+      <div>
+        <img src="assests/image/logo 1.jpg" alt="Logo SMP">
+        <h3>SMP NEGERI 4 GUNUNGHALU</h3>
+        <p>Menampuh pendidikan sekolah menengah pertama 3 tahun</p>
+      </div>
+
+      <div>
+        <img src="assests/image/logo 9.jpg" alt="Logo SMK">
+        <h3>SMK NEGERI 1 RONGGA</h3>
+        <p>Menampuh pendidikan sekolah menengah kejuruan RPL akan berlangsung selama 3 tahun</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="hobi">
+
+    <h2>Hobi</h2>
+
+    <div class="kotak">
+
+      <div>
+        <h3>Sepak Bola</h3>
+        <p>Saya suka bermain sepak bola.</p>
+      </div>
+
+      <div>
+        <h3>Futsal</h3>
+        <p>Saya suka bermain futsal bersama teman.</p>
+      </div>
+
+      <div>
+        <h3>Free Fire</h3>
+        <p>Saya suka bermain Free Fire.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="portfolio" class="biru">
+
+    <h2>Portfolio</h2>
+
+    <div class="portfolio">
+
+      <p>
+        Saya adalah siswa kelas 11 RPL 3 di SMKN 1 RONGGA.
+        Saya suka belajar coding karena saya tertarik dengan
+        dunia komputer dan ingin bisa membuat website dan
+        program sendiri.
+
+        Selain belajar coding, saya juga suka berolahraga,
+        terutama bermain futsal. Menurut saya, futsal membuat
+        tubuh tetap sehat dan juga menyenangkan karena bisa
+        bermain bersama teman-teman.
+
+        Saat ini saya masih terus belajar untuk mengembangkan
+        kemampuan saya dalam coding dan olahraga.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+
+    <h2>Sosial Media</h2>
+
+    <p>
+      <img src="assests/image/tiktok.png" width="25">
+      TikTok: @robi_ansory
+    </p>
+
+    <p>
+      <img src="assests/image/instagram.jpg" width="25">
+      Instagram: @_robiansoryyy
+    </p>
+
+    <p>
+      <img src="assests/image/whatsapp.jpg" width="25">
+      WhatsApp: 083872508270
+    </p>
+
+  </section>
+
+
+  <footer>
+    <p>&copy; 2026 Robi Ansory</p>
+  </footer>
+
+</body>
+
+</html>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0F172A;
+    color: white;
+}
+
+nav {
+    background-color: #111827;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav h2 {
+    color: lightblue;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+section {
+    padding: 55px 8%;
+    text-align: center;
+    scroll-margin-top: 70px;
+    background-color: #0F172A;
+}
+
+section h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #222;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.home {
+    padding: 75px 20px;
+}
+
+.home p {
+    color: #ccc;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.home h1 {
+    color: lightblue;
+    font-size: 42px;
+    margin: 10px;
+}
+
+.home h3 {
+    color: #ddd;
+    margin: 15px 0;
+}
+
+.foto-profil {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid lightblue;
+}
+
+.biru {
+    background-color: #0F172A;
+}
+
+#about p {
+    background-color: #222;
+    color: #ccc;
+    padding: 18px;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+#about h3 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #222;
+    padding: 10px;
+    width: 180px;
+    margin: 25px auto 10px;
+    border-radius: 8px;
+}
+
+/* PENDIDIKAN */
+.sekolah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sekolah div {
+    background-color: #222;
+    padding: 18px;
+    width: 80%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sekolah div:hover {
+    transform: translateY(-5px);
+    background-color: #333;
+}
+
+.sekolah img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+}
+
+.sekolah h3 {
+    color: white;
+    margin: 12px 0 5px;
+}
+
+.sekolah p {
+    color: #ccc;
+    margin: 5px;
+}
+
+.kotak {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.kotak div {
+    background-color: #222;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.kotak div:hover {
+    transform: translateY(-5px);
+    background-color: #333;
+}
+
+.kotak h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.kotak p {
+    color: #ccc;
+}
+
+.portfolio {
+    max-width: 700px;
+    margin: auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.portfolio p {
+    color: #ccc;
+    text-align: justify;
+    line-height: 1.7;
+    margin: 0;
+}
+
+#portfolio p {
+    color: #ccc;
+    background-color: #222;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    border-radius: 8px;
+    line-height: 1.7;
+}
+
+#contact p {
+    color: #ccc;
+    background-color: #222;
+    padding: 10px;
+    max-width: 500px;
+    margin: 10px auto;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#contact p img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+input,
+textarea {
+    display: block;
+    width: 70%;
+    margin: 12px auto;
+    padding: 11px;
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: lightblue;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: #111827;
+    text-align: center;
+    padding: 18px;
+}
+
+footer p {
+    color: #ccc;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        padding: 0;
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section {
+        padding: 45px 15px;
+    }
+
+    .home {
+        padding: 60px 15px;
+    }
+
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .sekolah,
+    .kotak {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sekolah div {
+        width: 250px;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+}
